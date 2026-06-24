@@ -39,6 +39,10 @@ npm run dev
 
 Open [http://localhost:5173](http://localhost:5173) and scroll down to load more posts.
 
+## Live Demo
+
+https://infinite-scroll-feed-eosin.vercel.app/
+
 ## Scripts
 
 | Command                 | Description                           |

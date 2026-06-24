@@ -40,6 +40,10 @@ npm run dev
 
 Open [http://localhost:5173](http://localhost:5173) and try sorting, filtering, and searching.
 
+## Live Demo
+
+https://data-table-xi-ten.vercel.app/
+
 ## Scripts
 
 | Command                 | Description                          |

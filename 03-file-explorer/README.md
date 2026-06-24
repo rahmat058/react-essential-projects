@@ -41,6 +41,10 @@ npm run dev
 
 Open [http://localhost:5173](http://localhost:5173) and explore the nested project tree.
 
+## Live Demo
+
+https://file-explorer-eight-nu.vercel.app/
+
 ## Scripts
 
 | Command                 | Description                           |

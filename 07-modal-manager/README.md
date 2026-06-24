@@ -41,6 +41,10 @@ npm run dev
 
 Open [http://localhost:5173](http://localhost:5173) — try **Nested stack**, press `Esc` three times, and watch the event log.
 
+## Live Demo
+
+https://modal-manager-nine.vercel.app/
+
 ## Scripts
 
 | Command | Description |

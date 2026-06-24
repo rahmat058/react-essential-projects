@@ -40,6 +40,10 @@ npm run dev
 
 Open [http://localhost:5173](http://localhost:5173) — fill step 1, refresh the page, and your draft restores.
 
+## Live Demo
+
+https://multi-step-form-sigma-three.vercel.app/
+
 ## Scripts
 
 | Command           | Description                   |

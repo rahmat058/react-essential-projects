@@ -41,6 +41,10 @@ npm run dev
 
 Open [http://localhost:5173](http://localhost:5173) — add items, change quantities, apply `SAVE10`, refresh to see cart restore.
 
+## Live Demo
+
+https://shopping-cart-mocha-five.vercel.app/
+
 ## Scripts
 
 | Command                 | Description                   |

@@ -40,6 +40,10 @@ npm run dev
 
 Open [http://localhost:5173](http://localhost:5173) and drag cards between columns.
 
+## Live Demo
+
+https://kanban-board-red-eight.vercel.app/
+
 ## Scripts
 
 | Command                 | Description                            |

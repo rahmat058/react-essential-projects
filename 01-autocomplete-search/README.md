@@ -39,6 +39,10 @@ npm run dev
 
 Open [http://localhost:5173](http://localhost:5173).
 
+## Live Demo
+
+https://autocomplete-search-one.vercel.app/
+
 ### Try these queries
 
 | Query   | Expected results           |

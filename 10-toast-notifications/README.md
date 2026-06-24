@@ -40,6 +40,10 @@ npm run dev
 
 Open [http://localhost:5173](http://localhost:5173) — click **Spam queue (6)**, hover a toast, watch the event log.
 
+## Live Demo
+
+https://toast-notifications-xi.vercel.app/
+
 ## Scripts
 
 | Command | Description |

@@ -41,6 +41,10 @@ npm run dev
 
 Open [http://localhost:5173](http://localhost:5173) — expand threads, post a reply, try Collapse all.
 
+## Live Demo
+
+https://nested-comments-eta.vercel.app/
+
 ## Scripts
 
 | Command | Description |
