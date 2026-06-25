@@ -2,6 +2,7 @@ import { useAppDispatch, useAppSelector } from '@/lib/store/hooks'
 import { setCategoryFilter } from '@/lib/store/slices/cartSlice'
 import { selectCategoryCounts } from '@/lib/store/selectors/cartSelectors'
 import type { ProductCategory } from '@/lib/types/cart'
+import { FilterCheckbox } from '@/components/ui/FilterCheckbox'
 import { cn } from '@/lib/utils/cn'
 
 const CATEGORIES: { id: ProductCategory; label: string }[] = [
@@ -12,10 +13,39 @@ const CATEGORIES: { id: ProductCategory; label: string }[] = [
   { id: 'fashion', label: 'Fashion' },
 ]
 
-export function CategoryFilter() {
+interface CategoryFilterProps {
+  variant?: 'pills' | 'cards'
+}
+
+export function CategoryFilter({ variant = 'cards' }: CategoryFilterProps) {
   const dispatch = useAppDispatch()
   const active = useAppSelector((state) => state.cart.categoryFilter)
   const counts = useAppSelector(selectCategoryCounts)
+
+  if (variant === 'cards') {
+    return (
+      <div className="space-y-2">
+        {CATEGORIES.map(({ id, label }) => (
+          <FilterCheckbox
+            key={id}
+            id={`category-${id}`}
+            label={label}
+            meta={String(counts[id])}
+            checked={active === id}
+            onChange={(checked) => {
+              if (checked) {
+                dispatch(setCategoryFilter(id))
+                return
+              }
+              if (active === id && id !== 'all') {
+                dispatch(setCategoryFilter('all'))
+              }
+            }}
+          />
+        ))}
+      </div>
+    )
+  }
 
   return (
     <div className="flex flex-wrap gap-2">
